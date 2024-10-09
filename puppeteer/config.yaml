@@ -1,0 +1,15 @@
+version: dev
+slug: chromium
+name: Chromium
+description: Puppeteer in the browser using Node.js
+url: https://github.com/Subzerox64/chromium
+startup: application
+hassio_api: true
+hassio_role: manager
+host_network: true
+homeassistant_api: true
+host_dbus: true
+apparmor: false 
+audio: true
+devices:
+  - /dev/snd
